@@ -34,7 +34,7 @@ const getVectorStyle = (type: string) => {
 };
 
 export default function ThreatMap({ data, onReset }: { data: any[], onReset: () => void }) {
-  const globeEl = useRef<any>();
+  const globeEl = useRef<any>(null);
   
   const [activeArcs, setActiveArcs] = useState<any[]>([]);
   const [activeRings, setActiveRings] = useState<any[]>([]);
