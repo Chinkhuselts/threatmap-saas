@@ -1,5 +1,5 @@
 # Use a lightweight Node.js alpine image for a smaller attack surface
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
