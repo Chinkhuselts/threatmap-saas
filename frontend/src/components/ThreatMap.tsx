@@ -193,7 +193,7 @@ export default function ThreatMap({ data, onReset }: { data: any[], onReset: () 
       {/* COMMAND BAR */}
       <div className="h-12 border-b border-green-900/40 bg-black/80 flex items-center justify-between px-6 shrink-0 z-20">
         <div className="flex items-center gap-4 text-green-500 font-bold tracking-widest text-sm">
-          <Activity className="h-4 w-4" /> THREAT MATRIX
+          <Activity className="h-4 w-4" /> THREAT MATRIX PRO
         </div>
         <div className="flex items-center gap-4">
           <button onClick={() => setShowStatsModal(true)} className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-cyan-400 border border-cyan-500/30 bg-cyan-500/10 hover:bg-cyan-500/20 px-3 py-1.5 rounded transition-all">
